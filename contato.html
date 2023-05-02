@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vinhacity</title>
+    
+</head>
+<body>
+
+    <!-- criando a class container -->
+    <div class="container">
+        <nav id="menu">
+            <!-- ul - lista não ordenada -->
+            <ul>
+                <!-- lista com a e o href para chamar a página -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <!--final do ul -->
+            </ul>
+
+<!--final do nav -->
+        </nav>
+
+
+    <h1>Contato</h1>
+
+    <form name="formulario" onsubmit="return validarFormulario()" method="post">
+		<label for="nome">Nome:</label>
+		<input type="text" id="nome" name="nome"><br><br>
+		
+		<label for="telefone">Telefone:</label>
+		<input type="text" id="telefone" name="telefone"><br><br>
+		
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="email"><br><br>
+		
+		<input type="submit" value="Enviar">
+	</form>
+
+    
+    <footer>@2023-todos os direitos reservados</footer>
+
+    <!--chamando o javascript  externo -->
+    <script src="contato/script.js"></script>
+
+
+
+
+</body>
+</html>
